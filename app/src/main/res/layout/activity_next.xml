@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="com.rentokil.pci.rauditor.MSOT.NextActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:text="Get Anything" />
+
+
+ <AutoCompleteTextView android:id="@+id/autoCompleteTextView"
+
+    android:layout_width="fill_parent"
+    android:singleLine="true"
+    android:cursorVisible="true"
+    android:layout_height="35dp"
+    android:dropDownWidth="fill_parent"
+     android:layout_marginTop="100dp"
+    android:completionThreshold="1"
+    android:paddingLeft="10dp"
+    android:textColor="@color/text_color"
+    android:inputType="textCapSentences"
+    android:background="@drawable/style" />
+
+    <EditText
+        android:id="@+id/et_designation"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/text_color"
+        android:background="@drawable/style"
+       />
+
+
+</RelativeLayout>

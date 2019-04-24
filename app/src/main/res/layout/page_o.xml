@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:windowSoftInputMode="stateHidden"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain">
+
+    <com.rentokil.pci.rauditor.MSOT.SliderLayout
+        android:id="@+id/slider"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="#fff"
+        custom:pager_animation_span="1100">
+
+        <requestFocus />
+    </com.rentokil.pci.rauditor.MSOT.SliderLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/uperslider">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="DRIVING &amp; MOTORBIKE RIDING SAFETY"
+                android:textColor="#fff"
+                android:textSize="21dp" />
+
+            <customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="SECTION - O"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/text" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_white"
+
+                android:layout_gravity="left"
+                android:id="@+id/img_tool12"
+                android:padding="16dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="rAuditor"
+                android:textColor="#FFFF"
+                android:textSize="@dimen/text" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:src="@drawable/draft_color_icon"
+                android:layout_marginLeft="300dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="-20dp"
+                android:id="@+id/draft"/>
+
+
+
+
+            <!--********SLIDER**********-->
+
+
+            <LinearLayout
+                android:id="@+id/haircut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="261dp"
+                android:background="@drawable/bg_list_rect"
+                android:elevation="4dp"
+                android:orientation="vertical">
+
+                <!--*****HAIR CUT********-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundedrect"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+
+                    >
+
+                    <customfonts.MyTextViewMSOT
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Management Safety Observation Tour (MSOT) "
+                        android:textColor="@color/textsub"
+                        android:textSize="@dimen/text" />
+
+
+                    <customfonts.MyTextViewMSOT
+
+                        android:id="@+id/sub_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next"
+                        android:textSize="@dimen/text"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@drawable/rect"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:layout_marginLeft="16dp"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1. Are all relevant staff being trained on safe driving, using RI Motorbike Safety Video &amp; other relevant training materials, and training attendance are recorded? Verify training attendance records on the above."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd1"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-38dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="90dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt1"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/image_Q1"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q1"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2. Are vehicle safety inspections for all vehicles being carried out every quarterly?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd2"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-38dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="90dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt2"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/image_Q2"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3. Is a Summary List of Drivers &amp; Motorbike Riders (consisting of driving license numbers &amp; expiry dates) maintained and regularly updated by a designated person at the branch?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd3"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-38dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="90dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt3"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/image_Q3"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4. Any driving license/ motorbike riding license expired from the Summary List? Are actions taken to renew the license?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd4"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-38dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="90dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt4"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/image_Q4"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:id="@+id/txt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text"
+                            android:text="5.Are the following documents maintained in each Employee File?  Sample check on 3 Employee Files."
+                            android:textColor="@color/text"
+                            />
+
+                        <customfonts.MyTextViewMSOT
+
+                            android:id="@+id/txt6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text"
+                            android:text=""
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd5"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-38dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="90dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt5"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/image_Q5"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical"
+                        android:padding="16dp"
+
+                        >
+
+                        <customfonts.MyTextViewMSOT
+
+                            android:id="@+id/sub_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:background="@drawable/rect"
+                            android:paddingLeft="19dp"
+                            android:paddingTop="6dp"
+                            android:paddingRight="19dp"
+                            android:paddingBottom="6dp"
+                            android:text="@string/Activity_1_submit"
+                            android:textColor="#fff"
+                            android:textSize="@dimen/text"
+
+
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <com.rentokil.pci.rauditor.MSOT.ExpandableHeightListView
+                    android:id="@+id/haircut_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </com.rentokil.pci.rauditor.MSOT.ExpandableHeightListView>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

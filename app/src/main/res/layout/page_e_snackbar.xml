@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+         android:layout_marginTop="10dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/inspecti_scope" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:text="(i) Inspection Scope"
+            android:textSize="14dp"
+            android:textColor="#D5CF0F" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="200dp"
+            android:text="(ii) Pole Cam"
+            android:textSize="14dp"
+            android:textColor="#D5CF0F" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="240dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ladder_check" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="5dp"
+            android:text="Examples: use pole cam, long inspection scope, rodent camera, thermal scanner, remote-controlled drone, or treatment from the ground"
+            android:textSize="14dp"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryMSOT">#FFB300</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4000</color>
+    <color name="colortext">#100b20</color>
+    <color name="colorhint">#a9aaac</color>
+    <color name="Indicator_tabTextColor">#0A0909</color>
+    <color name="Indicator_tabSelectedTextColor">#e92324</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="ColorPrimary">#202324</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="CanvasBackground">#ffffff</color>
+
+
+    <color name="black50">#80000000</color>
+    <color name="primary_text">#212121</color>
+    <color name="multiselect_done">#388e3c</color>
+    <color name="error_text">#b71c1c</color>
+
+    <color name="alertDialogBackground">#e92324</color>
+
+    <color name="title_background">#ff4000</color>
+
+    <color name="textsub">#aaaaaa</color>
+
+    <color name="text_cmt">#8D12C2</color>
+
+
+    <color name="tabindiacator_background">#fff</color>
+    <color name="tabIndicator_color">#38bffe</color>
+    <color name="login">#33a0be</color>
+    <color name="dark_blue">#191474</color>
+    <color name="black">#000000</color>
+    <color name="thickgreen">#145A32</color>
+    <color name="headerColor">#1d4b89</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="newdsp_text">#0000A0</color>
+    <color name="textcolor1">#b7005c</color>
+    <color name="text_color">#05145b</color>
+    <color name="color3">#81D4FA</color>
+    <color name="background">#484747</color>
+    <color name="white">#ffffff</color>
+    <color name="div">#d5c5a4</color>
+    <color name="text">#32353e</color>
+    <color name="textred">#ca362c</color>
+    <color name="textwhite">#fff</color>
+    <color name="color_primary">#F44336</color>
+    <color name="green">#055902</color>
+
+    <color name="time_color">#373737</color>
+    <color name="sky_blue_color_picker">#91b6c7</color>
+    <color name="text_color_id">#261b26</color>
+
+
+    <color name="color_primary_one">#EF5350</color>
+    <color name="color_primary_dark">#F44336</color>
+    <color name="accent_color">#ffffff</color>
+    <color name="home_icon_color">#e20618</color>
+
+    <color name="upper_color">#ef4460</color>
+
+    <color name="light_red">#FFEBEE</color>
+</resources>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rentokil.pci.rauditor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".volley.VolleyHelperApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main3Activity"
+            android:label="Navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".MSOT_NEW.Signature2" />
+        <activity android:name=".MSOT_NEW.Datepicker_test" />
+        <activity android:name=".MSOT_NEW.Page_O" />
+        <activity android:name=".MSOT_NEW.AlertDialog" />
+        <activity android:name=".MSOT_NEW.Signature_Activity" />
+        <activity android:name=".Image.Snackbar_Test" />
+        <activity android:name=".MSOT_NEW.MSOT_LIST_1" />
+        <activity android:name=".Image.MSOT_TEST" />
+        <activity
+            android:name=".MSOT_NEW.Page_N"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_M"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_L"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_K"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_I"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_J"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_H"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_G"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_F"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_E"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_D"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_C"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_B"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Page_A"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MSOT_NEW.Spinner_tech"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".MSOT_NEW.MSOT_LIST_2" />
+        <activity
+            android:name=".MSOT_NEW.MSOT_Main"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Category_Type_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SIR_Title_1"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SIR_Cus_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SIR_Obser_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SIR_Summary_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_Title_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_Cus_Info_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_Cus_Pest_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_Facility_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_Obser_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QSR_summary_6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Title_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Cus_Info_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Cus_Pest_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Facility_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Obser_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPM_Summary_6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PMCA_Title_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PMCA_Cus_Info_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PMCA_Obser_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PMCA_Summary_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Title_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Cus_Info_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Cus_Pest_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Facility_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Ext_Obser_5_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Ext_Obser_5_2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Summary_7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AIB_Interl_Obser_6"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.rentokil.pci.rauditor.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".NetConnection" />
+        <activity android:name=".Testing" />
+        <activity android:name=".FirebasePost" />
+        <activity android:name=".FirebaseGet" />
+        <activity android:name=".MSOT.NextActivity" />
+    </application>
+
+</manifest>

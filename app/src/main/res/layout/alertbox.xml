@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#014B6D"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/btnrefresh"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/netconnection"
+        android:id="@+id/gif1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/btnrefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#05580C"
+        android:text="Retry"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Check Your Internet Connection"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Please Turn On Your Mobile Data / Wifi"
+        android:textStyle="italic"
+        android:textSize="13dp"
+        android:layout_below="@+id/gif1"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

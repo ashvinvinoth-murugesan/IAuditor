@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="24dp"
+        android:orientation="vertical">
+
+    <customfonts.MyTextView_Lato_Regular
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#373737"
+        android:text="Rentokil-Pci"
+        android:textSize="16.7sp"/>
+
+        <!--<customfonts.MyTextView_Lato_Regular-->
+            <!--android:id="@+id/tv_subtitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#a5a5a5"-->
+            <!--android:text="Filet Migon Kampachi Osetra Caviar Tartare;"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textSize="12.7sp"/>-->
+
+        <!--<customfonts.MyTextView_Lato_Regular-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#a5a5a5"-->
+            <!--android:text="Lightly Smoked Daashi Gelee"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textSize="12.7sp"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

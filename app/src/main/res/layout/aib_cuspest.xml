@@ -1,0 +1,2242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rentokil.pci.rauditor.AIB_Cus_Pest_3">
+
+
+    <include layout="@layout/toolbar_category"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/title_background"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:paddingTop="12dp"
+        android:text="Customer Pest Infor.."
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+    <ScrollView
+
+        android:layout_weight="1"
+        android:id="@+id/scrlbar"
+        android:background="#f5f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Copy of Signed OCC- Order cum Contract Form"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PO-Customer Purchase Order / Service Agreement / Work Order"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Emergency Contact No - Escalation Matrix"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd3"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Technician Police Verification,Health &amp; ID Records"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd4"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Technician Training Certificate including IPM &amp; GMP"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd5"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="No" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rentokil PCI serving branch Licence copy- Form- VIII"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd6"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rentokil PCI Holiday list with Optional Holiday"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd7"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="No" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Annual Service Calendar"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd8"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="List of Approved Preparations (APL) with Dilution ratio(Service wise Pesticide Chart)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="List of Antidote"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd10"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Label copies of Approved Preparations"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd11"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="MSDS of Approved preparation used(Valid MSDS - within 4years for review date)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd12"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pesticide Stock Register for the site"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd13"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Sighting Log"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd14"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Record of Pest Infestation Observed in the last Quarter with Action taken &amp; current status"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd15"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Copy of Public Liability Insurance"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd16"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PMS Log Sheets / Service Record"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/aib_cuspest_selectrespon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="SELECT RESPONSE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/aib_cuspest_disp1"
+                    android:layout_width="match_parent"
+                    android:textColor="#E50404"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Temporary Rodent Station Inspection Log"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd17"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Service-wise Preparation Usage Log (Pesticide Usage Log)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd18"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="SOP for Pesticide Storage"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd19"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="SOP for Disposal of Empty Pesticide Containers"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd20"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="SOP for Pesticide Spill Management"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd21"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Chemical Inward Challans"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd22"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Empty Container Outward Challans"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd23"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Map : Sensitive and Non Sensitive Areas"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd24"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Customer have clear Demarcation map for Service-wise Pesticide use"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd25"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Customer have Pest - Monitoring Device Map"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd26"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Rodent Station (Temporary Stations should also be marked as &amp; when placed)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd27"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Exterior of the structure - Rodent Monitoring Devices are placed at intervals of 50 to 100 fts."
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd28"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Interior Rodent Monitoring Devices are placed along the internal perimeter walls &amp; in sensitive areas specific to the Rodent activity, all warehouses at intervals ofv20-40 ft."
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd29"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="40dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Insect Light Trap"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd30"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="25dp" >
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Insect Light Trap Tubes are changed on base of Manufacturers's Recommendations &amp; Document Maintained"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd31"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="30dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Insect Light Trap control board count &amp; changing record maintained"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd32"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="30dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan- Cockroach Traps (IMT / Exoroach)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd33"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="30dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - SIP Pheromone Traps"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd34"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="30dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Annual Pest Risk Assessment &amp; Quarterly Audit Reports"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_cuspest_rd35"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="30dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Trend Analysis of last Three months - 1) Rodent Trapped / Killed, 2) Insect Trappedin ILT - Flies, Hoppers, Moths, Crickets, 3) Lizards Trapped / Killed, 4) Cockroaches, 5) Store Insect Pest."
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_cuspest_rd36"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="40dp" >
+
+
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                </RadioGroup>
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scrlbar"
+
+        >
+
+        <Button
+            android:id="@+id/aibcuspestbck"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Back" />
+        <Button
+            android:id="@+id/aibcuspestsub"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="1dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/aib_cuspest_finish1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:textColor="#FDFEFE"
+            android:background="#27AE60"
+            android:text="NEXT" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

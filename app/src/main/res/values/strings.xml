@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">rAuditor</string>
+    <string name="food">Food &amp; Drink experiences</string>
+    <string name="facebook_app_id">pHMjJ3QLPUBBDbFDU6pB5U8f</string>
+
+    <string name="imagepicker_multiselect_done">Done</string>
+    <string name="imagepicker_multiselect_not_enough_singular">You have to select 1 more image</string>
+    <string name="imagepicker_multiselect_not_enough_plural">You have to select %d more images</string>
+    <string name="imagepicker_multiselect_enough_singular">You have selected 1 image</string>
+    <string name="imagepicker_multiselect_enough_plural">You have selected %d images</string>
+    <string name="imagepicker_multiselect_overselect">You cannot select more than %d images</string>
+    <string name="imagepicker_gallery_intent_title">Select Multiple Images</string>
+    <string name="imagepicker_no_image_text_view">There are no image in your device.</string>
+
+
+    <string-array name="Animals">
+        <item>Select Animal!!</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Elephant</item>
+        <item>Zebra</item>
+        <item>Giraffe</item>
+        <item>Deer</item>
+    </string-array>
+
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <string name="Activity_rd_yes">Yes</string>
+    <string name="Activity_rd_no">No</string>
+    <string name="Activity_rd_na">N/A</string>
+    <string name="Activity_rd_par">Partial</string>
+    <string name="Activity_remarks">Remarks: </string>
+
+
+    <string name="Activity_1_head">Ladder Use(a)</string>
+    <string name="Activity_1_child">(LU)</string>
+    <string name="Activity_1_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_1_rd1">4. Is ladder being used?</string>
+    <string name="Activity_1_field_1">4.(a).Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_1_field_2">4.(b).Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_1_field_3">4.(c).Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_1_field_4">4.(d).User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_1_submit">Next</string>
+
+
+    <string name="Activity_2_head">Fly Killer Dispenser installation / servicing(b)</string>
+    <string name="Activity_2_child">(FKDIS)</string>
+    <string name="Activity_2_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_2_rd_1">5.Activities observed involved Air Freshener (AF) / Fly Killer Dispenser Unit?</string>
+    <string name="Activity_2_rd_2">Is ladder being used?</string>
+    <string name="Activity_2_field_1">5.(a).Air-freshener/ Fly Killer Dispenser Units are installed not more than 2 meter above the ground.</string>
+    <string name="Activity_2_field_2">5.(b).For installations above 2m, SRA is done with safe work method in place? Supervisor, manager or SHE person is consulted?</string>
+    <string name="Activity_2_field_3">5.(c).AF or Fly Killer units are not installed directly above areas with human traffic/ activities, to minimize risks of hit by falling units</string>
+    <string name="Activity_2_field_4">4.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_2_field_5">5.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_2_field_6">6.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_2_field_7">7. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_2_submit">Submit</string>
+
+
+    <string name="Activity_3_head">Bait Stations Installation / Servicing</string>
+    <string name="Activity_3_child">(WAH)</string>
+    <string name="Activity_3_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_3_rd_1">6.Activities observed involved Bait Stations and Fly Traps installation/ servicing?</string>
+    <string name="Activity_3_field_1">6.(a).Bait Stations/ Fly Traps are not installed at height where the access is unsafe or obstructed (falling from height hazards)</string>
+    <string name="Activity_3_field_2">2. Are bait stations, fly traps installed at safe to access locations, that avoid/ minimize slip , trip and fall risks?</string>
+    <string name="Activity_3_field_3">3. Are bait stations, fly traps installed at safe locations away from moving vehicles, moving machinery and electrical hazards?</string>
+    <string name="Activity_3_submit">Submit</string>
+
+    <string name="Activity_4_head">Fly Traps Installation / Servicing</string>
+    <string name="Activity_4_child">(FTIS)</string>
+    <string name="Activity_4_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_4_rd_1">Activities observed involved Bait Stations and Fly Traps installation/ servicing?</string>
+    <string name="Activity_4_field_1">1. Bait Stations/ Fly Traps are not installed at height where the access is unsafe or obstructed (falling from height hazards)</string>
+    <string name="Activity_4_field_2">2. Are bait stations, fly traps installed at safe to access locations, that avoid/ minimize slip , trip and fall risks?</string>
+    <string name="Activity_4_field_3">3. Are bait stations, fly traps installed at safe locations away from moving vehicles, moving machinery and electrical hazards?</string>
+    <string name="Activity_4_submit">Submit</string>
+
+    <string name="Activity_5_head">Bird Proofing Via Abseiling</string>
+    <string name="Activity_5_child">(BPVA)</string>
+    <string name="Activity_5_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_5_rd_1">7.Activities observed involved Bird Proofing?</string>
+    <string name="Activity_5_field_1">7.(a).Is Personal Fall Arrest System (PFAS including harness, lifeline, connectors) inspected before use?</string>
+    <string name="Activity_5_field_2">7.(b).Is Rescue kit (for abseiling/ rope access) available as technician carried out bird proofing?</string>
+    <string name="Activity_5_field_3">7.(c).Is a Rescuer wearing full body harness on standby during bird proofing work?</string>
+    <string name="Activity_5_submit">Submit</string>
+
+
+    <string name="Activity_6_head">Driving Service Vehicle</string>
+    <string name="Activity_6_child">(DSV)</string>
+    <string name="Activity_6_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_6_rd_1">Staff drives a vehicle or rides a motorbike for work?</string>
+    <string name="Activity_6_field_1">1. Staff has a valid driving license? Request to see license for verification</string>
+    <string name="Activity_6_field_2">2. Staff (driving the vehicle) is the authorized driver appointed by RI to drive this vehicle?</string>
+    <string name="Activity_6_field_3">3. Staff has the Company Vehicle Handbook and been briefed by his supervisor/ manager/ SHE personnel?</string>
+    <string name="Activity_6_field_4">4. Is service vehicle in good condition? Take picture of vehicle and the license plate.</string>
+    <string name="Activity_6_field_5">5.Seat belts easily accessible and in good condition? Take a picture</string>
+    <string name="Activity_6_field_6">6.Service vehicle (4-wheeler) equipped with emergency equipment and these are in good conditions?</string>
+    <string name="Activity_6_submit">Submit</string>
+
+
+    <string name="Activity_7_head">Riding Motorbike For Work</string>
+    <string name="Activity_7_child">(RMW)</string>
+    <string name="Activity_7_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_7_rd_1">Staff drives a vehicle or rides a motorbike for work? </string>
+    <string name="Activity_7_field_1">1. Staff has a valid driving license? Request to see license for verification</string>
+    <string name="Activity_7_field_2">2. Staff (driving the vehicle) is the authorized driver appointed by RI to drive this vehicle?</string>
+    <string name="Activity_7_field_3">3. Staff has the Company Vehicle Handbook and been briefed by his supervisor/ manager/ SHE personnel?</string>
+    <string name="Activity_7_field_4">4. Is service vehicle in good condition? Take picture of vehicle and the license plate.</string>
+    <string name="Activity_7_field_5">5.Seat belts easily accessible and in good condition? Take a picture</string>
+
+    <string name="Activity_7_submit">Submit</string>
+
+
+    <string name="Activity_8_head">Work At The Ceiling/ Roof Void</string>
+    <string name="Activity_8_child">(WCRV)</string>
+    <string name="Activity_8_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_8_rd_1">Is ladder being used?</string>
+    <string name="Activity_8_field_1">1.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_8_field_2">2.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_8_field_3">3.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_8_field_4">4. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_8_field_5">5. If there is work at the ceiling/ roof void, has technician check if there are electrical fittings/ cables at the ceiling space/ roof void?</string>
+    <string name="Activity_8_field_6">6. If there are electrical cables/ fittings at the ceiling/ roof void, has staff discuss with customer to turn off the power to these electricals before start work?</string>
+    <string name="Activity_8_field_7">7. If not practicable to shut down power to the electricals at the ceiling/ roof void, other safe alternatives have been adopted?</string>
+    <string name="Activity_8_field_8">8. Electrical insulation gloves used by staff are in good condition?</string>
+    <string name="Activity_8_submit">Submit</string>
+
+
+    <string name="Activity_9_head">Entry into Roof Void</string>
+    <string name="Activity_9_child">(ERV)</string>
+    <string name="Activity_9_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_9_rd_1">Is ladder being used?</string>
+    <string name="Activity_9_field_1">1.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_9_field_2">2.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_9_field_3">3.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_9_field_4">4. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_9_field_5">5. If there is work at the ceiling/ roof void, has technician check if there are electrical fittings/ cables at the ceiling space/ roof void?</string>
+    <string name="Activity_9_field_6">6. If there are electrical cables/ fittings at the ceiling/ roof void, has staff discuss with customer to turn off the power to these electricals before start work?</string>
+    <string name="Activity_9_field_7">7. If not practicable to shut down power to the electricals at the ceiling/ roof void, other safe alternatives have been adopted?</string>
+    <string name="Activity_9_field_8">8. Electrical insulation gloves used by staff are in good condition?</string>
+    <string name="Activity_9_submit">Submit</string>
+
+
+    <string name="Activity_10_head">Insect Light Trap</string>
+    <string name="Activity_10_child">(ILT)</string>
+    <string name="Activity_10_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_10_rd_1">Is ladder being used?</string>
+    <string name="Activity_10_field_0">Insect light traps are unplugged from the power point prior to servicing? (as per Pink Note 9)</string>
+    <string name="Activity_10_field_1">1.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_10_field_2">2.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_10_field_3">3.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_10_field_4">4. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_10_submit">Submit</string>
+
+
+    <string name="Activity_11_head">Work Near / Around Electrical Cabinet</string>
+    <string name="Activity_11_child">(WNEC)</string>
+    <string name="Activity_11_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_11_field_1">1. High voltage electrical cabinet or room is clearly labelled (e.g. Danger - High Voltage), and securely enclosed.</string>
+    <string name="Activity_11_field_2">2. Staff does not access and open any operating high voltage electrical panel.</string>
+    <string name="Activity_11_field_3">3. A minimum safe distance of 3m is maintained between staff’s body/ the conductive tool he is holding (e.g. hand phone) and any suspected or exposed live high voltage electrical part.</string>
+    <string name="Activity_11_field_4">4. A minimum safe distance - Arms Length is maintained between staff’s body/ the conductive tool he is holding and any suspected or exposed live low voltage electrical part.</string>
+    <string name="Activity_11_submit">Submit</string>
+
+
+    <string name="Activity_12_head">Work Inside Electrical Room</string>
+    <string name="Activity_12_child">(WIER)</string>
+    <string name="Activity_12_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_12_field_1">1. High voltage electrical cabinet or room is clearly labelled (e.g. Danger - High Voltage), and securely enclosed.</string>
+    <string name="Activity_12_field_2">2. Staff does not access and open any operating high voltage electrical panel.</string>
+    <string name="Activity_12_field_3">3. A minimum safe distance of 3m is maintained between staff’s body/ the conductive tool he is holding (e.g. hand phone) and any suspected or exposed live high voltage electrical part.</string>
+    <string name="Activity_12_field_4">4. A minimum safe distance - Arms Length is maintained between staff’s body/ the conductive tool he is holding and any suspected or exposed live low voltage electrical part.</string>
+    <string name="Activity_12_submit">Submit</string>
+
+
+    <string name="Activity_13_head">Fumigation</string>
+    <string name="Activity_13_child">(FS)</string>
+    <string name="Activity_13_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_13_rd1">1.Is fumigation work being carried out?</string>
+    <string name="Activity_13_check_txt">Please indicate the item or area to be fumigated below:</string>
+    <string name="Activity_13_check_txt1">Please indicate the fumigant used :</string>
+    <string name="Activity_13_checkbox1">Methyl Bromide</string>
+    <string name="Activity_13_checkbox2">Phosphide</string>
+    <string name="Activity_13_checkbox3">Hydrogen Cyanide</string>
+    <string name="Activity_13_checkbox4">Carbon Dioxide</string>
+    <string name="Activity_13_checkbox5">Ethylene Oxide</string>
+    <string name="Activity_13_field_1">2.Can fumigator explain the five Fumigation golden rules?</string>
+    <string name="Activity_13_field_2">3.Fumigator is trained and licensed to do fumigation? Take picture of the fumigator’s license if available.</string>
+    <string name="Activity_13_field_3">4.RPE (Respiratory Protection Equipment) is used during fumigation, and is regularly inspected.</string>
+    <string name="Activity_13_field_4">5.Suitable Gas detector (for methyl bromide/ phosphine) is available, used and been regularly inspected, calibrated?</string>
+    <string name="Activity_13_submit">Submit</string>
+
+
+    <string name="Activity_14_head">Air Freshener (AF) Installation / Servicing</string>
+    <string name="Activity_14_child">(AF)</string>
+    <string name="Activity_14_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_14_rd_1">Activities observed involved Air Freshener (AF) / Fly Killer Dispenser Unit?</string>
+    <string name="Activity_14_rd_2">Is ladder being used?</string>
+    <string name="Activity_14_field_1">1. Air-freshener/ Fly Killer Dispenser Units are installed not more than 2 meter above the ground.</string>
+    <string name="Activity_14_field_2">2. For installations above 2m, SRA is done with safe work method in place? Supervisor, manager or SHE person is consulted?</string>
+    <string name="Activity_14_field_3">3. AF or Fly Killer units are not installed directly above areas with human traffic/ activities, to minimize risks of hit by falling units</string>
+    <string name="Activity_14_field_4">4.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_14_field_5">5.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_14_field_6">6.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_14_field_7">7. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_14_submit">Submit</string>
+
+    <string name="Activity_15_head">Scenting</string>
+    <string name="Activity_15_child">(SC)</string>
+    <string name="Activity_15_msot">Management Safety Observation Tour (MSOT)</string>
+    <string name="Activity_15_rd_1">Is ladder being used?</string>
+    <string name="Activity_15_field_1">1.Ladder is of the right height (top 2 rungs must not be in use) and in good condition?</string>
+    <string name="Activity_15_field_2">2.Ladder has Safe Working Load (SWL) label e.g. SWL 150kg?</string>
+    <string name="Activity_15_field_3">3.Ladder is stable, on even ground and can be fully spread out (for A-ladder)?</string>
+    <string name="Activity_15_field_4">4. User has 3 points of contact with the ladder and has the front of his body facing the ladder?</string>
+    <string name="Activity_15_field_5">5. If there is work at the ceiling/ roof void, has technician check if there are electrical fittings/ cables at the ceiling space/ roof void?</string>
+    <string name="Activity_15_field_6">6. If there are electrical cables/ fittings at the ceiling/ roof void, has staff discuss with customer to turn off the power to these electricals before start work?</string>
+    <string name="Activity_15_field_7">7. If not practicable to shut down power to the electricals at the ceiling/ roof void, other safe alternatives have been adopted?</string>
+    <string name="Activity_15_field_8">8. Electrical insulation gloves used by staff are in good condition?</string>
+    <string name="Activity_15_submit">Submit</string>
+
+
+    <string name="Activity_b1_head">WORKING AT HEIGHT (WAH)</string>
+    <string name="Activity_b3_head">SLIP, TRIP &amp; FALL, MOVING VEHICLE &amp; OTHER RISKS</string>
+    <string name="Activity_j1_head">EMPLOYEE INDUCTION &amp; CONSULTATION</string>
+
+
+    <string name="Activity_e1_field_1">1.Activities observed involved work at height?</string>
+    <string name="Activity_e2_field_2">2.Has staff been trained on the work at height? Take picture of staff’s WAH Training ID Card if available.</string>
+    <string name="Activity_e3_field_3">3.Has staff considered other safer way before working at height?</string>
+
+    <string name="Activity_j1_field_1">1.Staff completed SHE Induction Training by his reporting manager / SHE personnel when first joined RI?</string>
+    <string name="Activity_j2_field_2">2.Consultation with Employee ~ Any SHE concern in your work or area of improvements to suggest for your work?</string>
+
+
+
+
+    <string name="back">BACK</string>
+    <string name="clear">CLEAR</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="edit">EDIT</string>
+    <string name="page_a_1">1. Staff knows what to report and who to report to?</string>
+    <string name="app_names">rAuditor</string>
+    <string name="app_source">Management Safety Observation Tour (MSOT)</string>
+    <string name="page_next">Next</string>
+    <string name="page_a_2">2. Witness encounter any near miss,injury or illness in the last 1 year?</string>
+    <string name="page_b_head">SINA CARD (Success is No Accident)</string>
+    <string name="page_a_head">INCIDENT REPORTING</string>
+    <string name="page_a_sub">SECTION - A</string>
+    <string name="page_b_sub">SECTION - B</string>
+    <string name="page_b_source">Management Safety Observation Tour (MSOT)</string>
+    <string name="page_b_0">Is this Section applicable?</string>
+    <string name="page_b_1"><![CDATA[1.Staff carried “SINA card” with him & it is in good condition?]]></string>
+    <string name="page_b_2"><![CDATA[2. Back of “SINA Card” is completed & info. remain accurate?]]></string>
+    <string name="page_b_3">3. Staff is able to explain purpose of the SINA card?</string>
+    <string name="page_c_head">ZERO TOLERANCE POLICY</string>
+    <string name="page_c_sub">SECTION - C</string>
+    <string name="page_c_0">Is this Section applicable?</string>
+    <string name="page_c_1">1. Can staff explain the Zero Tolerance Policy (ZTP)?</string>
+    <string name="page_c_2">2. Is staff aware of the disciplinary actions for ZTP non-compliance?</string>
+    <string name="page_c_3">3. Is staff in compliance to Zero Tolerance Policy in the following areas?</string>
+    <string name="page_c_3_a">a) SRA done for the site?</string>
+    <string name="page_c_3_b">b) SRA info have been read by Technician?</string>
+    <string name="page_c_3_c">c) Wear safety shoes</string>
+    <string name="page_c_3_d">d) Seat belt worn by driver and passenger</string>
+    <string name="page_c_3_e">e) No hand-held hand phone use while driving a vehicle or motorbike</string>
+    <string name="page_c_3_f">f) No use of hand phone while operating tools and equipment</string>
+    <string name="page_c_3_g">g) Wear helmet, jacket and gloves while riding motorbike/ electric bike. The PPE are in good condition</string>
+    <string name="page_c_3_h">h) Respirator with cartridge filter of good condition is worn and worn properly</string>
+    <string name="page_d_head">SHE GOLDEN RULES</string>
+    <string name="page_d_sub">SECTION - D</string>
+    <string name="page_d_1">1. Staff has the “SHE Golden Rules Booklet”?</string>
+    <string name="page_d_2">2. Can staff explain the Start / Stop golden rules?</string>
+    <string name="page_d_3">3. Staff complies with the Start/ Stop golden rules at work?</string>
+    <string name="page_d_4">4. Can staff explain the Working At Height golden rules?</string>
+    <string name="page_d_5">5. If staff drives a vehicle or ride motorbike for work, can he explain the five Driving At Work golden rules?</string>
+    <string name="page_e_sub">SECTION - E</string>
+    <string name="page_f_head"><![CDATA[SLIP, TRIP & FALL, MOVING VEHICLE & OTHER RISKS(F)]]></string>
+    <string name="page_f_sub">SECTION - F</string>
+    <string name="page_f_1">1. Are bait stations, fly traps installed at safe to access locations, that avoid/ minimize slip , trip and fall risks?</string>
+    <string name="page_f_2">2. Are bait stations, fly traps installed at safe distance from moving vehicles, moving machinery and electrical hazards?</string>
+    <string name="page_f_3">3. Is staff exposed to “moving vehicles” hazards on the site?</string>
+    <string name="page_f_4">4. Staff used high visibility vest and safety cones while loading/ unloading or doing preparation work at/ near service vehicle?</string>
+    <string name="page_f_5">5. Staff wore high visibility vest while doing service in areas with moving vehicles e.g. loading bay, carpark, warehouse with forklift?</string>
+    <string name="page_f_6">6. Is technician/ staff wearing high visibility page_c_headvest during night work, while travelling at night or while working in dark areas?</string>
+    <string name="page_g_head"><![CDATA[DRIVING & PEDESTRIAN SAFETY]]></string>
+    <string name="page_g_sub">SECTION - G</string>
+    <string name="page_g_1">1.Staff drives a vehicle or rides a motorbike for work?</string>
+    <string name="page_g_2">2.Staff has a valid driving license? Request to see license for verification.</string>
+    <string name="page_g_3">3.Staff (driving the vehicle) is the authorized driver appointed by RI to drive this vehicle?</string>
+    <string name="page_g_4">4.Staff has the Company Vehicle Handbook and been briefed by his supervisor/ manager/ SHE personnel?</string>
+
+    <string name="page_g_5">5.Is service vehicle in good condition? Take picture of vehicle and the license plate.</string>
+    <string name="page_g_6">6.Seat belts easily accessible and in good condition? Take a picture.</string>
+
+
+</resources>

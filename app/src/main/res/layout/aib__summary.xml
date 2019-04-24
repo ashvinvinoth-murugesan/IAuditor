@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rentokil.pci.rauditor.AIB_Summary_7">
+
+
+    <include layout="@layout/toolbar_category"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/title_background"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:paddingTop="12dp"
+        android:text="Summary (AIB)"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <ScrollView
+
+        android:layout_weight="1"
+        android:id="@+id/scrlbar"
+        android:background="#f5f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Description"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_sum_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textColor="@color/text_color"
+                        android:text="Signature of Customer"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_design_pest"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="100dp">
+                        <ImageView
+
+
+                            android:id="@+id/rs_signature_im"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textColor="@color/text_color"
+                        android:text="Signature of Auditor"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_design_pest"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="100dp">
+                        <ImageView
+
+
+                            android:id="@+id/sirsumauditorsign"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Review / Next Audit Date"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:minLines="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:id="@+id/date_calendar"
+                        android:background="@drawable/round_border"/>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scrlbar"
+
+        >
+
+        <Button
+            android:id="@+id/aibsumbck"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Back" />
+        <Button
+            android:id="@+id/aibsumcomplete"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="1dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="Mark as Complete" />
+
+
+        <Button
+            android:id="@+id/aibsumcomplete1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:textColor="#FDFEFE"
+            android:background="#27AE60"
+            android:text="FINISH" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

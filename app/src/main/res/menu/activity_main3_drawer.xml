@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+<item android:title="Rentokil PCI">
+       <menu>
+        <item
+            android:icon="@drawable/dashboard_icon"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/sync_menu"
+
+            android:icon="@drawable/sync_icon"
+            android:title="Sync" />
+        <item
+            android:id="@+id/sir_menu"
+            android:icon="@drawable/star_icon"
+            android:title="SIR Audit" />
+        <item
+            android:id="@+id/pmca_menu"
+            android:icon="@drawable/star_icon"
+            android:title="PMCA Audit" />
+        <item
+            android:id="@+id/aib_menu"
+            android:icon="@drawable/star_icon"
+            android:title="AIB Audit" />
+        <item
+            android:id="@+id/qsr_menu"
+            android:icon="@drawable/star_icon"
+            android:title="QSR Audit" />
+        <item
+            android:id="@+id/ipm_menu"
+            android:icon="@drawable/star_icon"
+            android:title="IPM Audit" />
+    </menu>
+    </item>
+   <!-- <item android:title="Rentokil">
+        <menu>
+            <item
+                android:id="@+id/msot_menu"
+                android:icon="@drawable/star_icon"
+                android:title="MSOT" />
+
+        </menu>
+    </item>-->
+ <!--   <item android:title="Status">
+        <menu>
+            <item
+                android:id="@+id/in_progress_menu"
+                android:icon="@drawable/in_progress"
+                android:title="In Complete" />
+            <item
+                android:id="@+id/completed_menu"
+                android:icon="@drawable/completed_icon"
+                android:title="Completed" />
+
+
+        </menu>-->
+    <!--</item><item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/profile_menu"
+                android:icon="@drawable/profile_icon"
+                android:title="Profile_Fragment" />
+            <item
+                android:id="@+id/about_us_menu"
+                android:icon="@drawable/about_us"
+                android:title="About Us" />
+
+
+        </menu>
+    </item>-->
+    <item
+        android:id="@+id/msot_menu"
+        android:icon="@drawable/star_icon"
+        android:title="MSOT Audit" />
+</menu>

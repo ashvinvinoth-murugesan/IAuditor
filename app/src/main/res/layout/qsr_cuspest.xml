@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rentokil.pci.rauditor.QSR_Cus_Pest_3">
+
+    <include layout="@layout/toolbar_category"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/title_background"
+        android:elevation="3dp"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:paddingTop="12dp"
+        android:text="Customer Pest Manage... (QSR)"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <ScrollView
+
+        android:layout_weight="1"
+        android:id="@+id/scrlbar"
+        android:background="#f5f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="22dp" >
+
+                    <RadioButton
+
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Customer Pest Management Program file in place"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+                    android:id="@+id/image_Q1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="ADD MEDIA"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+
+                    android:layout_marginTop="115dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/image_layout_Q1"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="If the CPMP file is not in place,put the image of acknowledgement sheet."
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="OCC - Order cum Contract Form"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd3"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PO- Customer Purchase Order / Service agreement"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd4"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rentokil PCI Serving branch License copy- Form- VI C or 8"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd5"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Advance Service Schedule"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd6"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N.A" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="List of Approved Preparation(APL) with Dilution ratios"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="MSDS of Approved Preparations used"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd7"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Approved Preparations Labels Copies"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd8"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="1dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="List of Antidotes"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd9"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd10"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Technician ID &amp; Training Certificate"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="SCS / PMS"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd11"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Rodent Station"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+
+                    android:id="@+id/qsr_cuspest_rd12"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd13"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DAMAGED" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rodent Station Grouted"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:id="@+id/image_Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-8dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="ADD MEDIA"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <ImageView
+
+                    android:layout_marginTop="115dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/image_layout_Q2"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Images of Damaged Rodent Stations(If any)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+
+                    android:id="@+id/qsr_cuspest_rd14"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NA" />
+
+
+
+                </RadioGroup>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rodent Station / Glue Trap is free of any Foreign body / Wetness / Dust - "
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Cockroach Traps(IMT / Exoroach )"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+
+                    android:id="@+id/qsr_cuspest_rd15"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="No of Exoroach Trap Stations Installed &amp; in How many Roaches are Trapped"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/qsr_cuspest_et_exoplaced"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:inputType="textCapWords|textCapSentences"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+                    android:id="@+id/image_Q3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="ADD MEDIA"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <ImageView
+
+                    android:layout_marginTop="115dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/image_layout_Q3"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Images of Exoroach Placed with Roaches Trapped"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="No of IMT's Placed T in How many Roaches were Trapped"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/qsr_cuspest_et_imtplaced"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+                    android:id="@+id/image_Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-20dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="ADD MEDIA"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <ImageView
+
+                    android:layout_marginTop="115dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/image_layout_Q4"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Images of IMT's which have Roaches Trapped "
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Insect Light Trap"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd16"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT APPLICABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Audit Reports (Hard copy)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd17"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Catch Count"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/qsr_cuspest_rd18"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scrlbar"
+
+        >
+
+        <Button
+            android:id="@+id/qsrcuspestbck"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Back" />
+        <Button
+            android:id="@+id/qsrcuspestsub"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="1dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="Next" />
+
+
+
+        <Button
+            android:id="@+id/qsrcuspestsub1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:textColor="#FDFEFE"
+            android:background="#27AE60"
+            android:text="NEXT" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

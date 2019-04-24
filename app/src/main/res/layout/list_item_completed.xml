@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:layout_height="70dp">
+
+   <TextView
+       android:layout_weight="1"
+       android:id="@+id/audi_name"
+       android:gravity="center"
+       android:text="hghj"
+
+       android:layout_gravity="center_vertical"
+       android:paddingStart="5dp"
+       android:padding="1dp"
+
+       android:textColor="@color/text_color_id"
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+    <TextView
+        android:text="hghj"
+        android:gravity="center"
+
+
+        android:layout_gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:id="@+id/cus_name"
+        android:textColor="@color/text_color_id"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+        android:padding="1dp"
+
+        android:text="hghj"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:textColor="@color/text_color_id"
+
+        android:layout_weight="1"
+        android:id="@+id/audi_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="1dp"
+
+
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/text_color_id"
+        android:text="hghj"
+
+        android:paddingStart="5dp"
+        android:layout_weight="1"
+        android:id="@+id/doc_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="1dp"
+
+
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/text_color_id"
+        android:text="hghj"
+
+        android:paddingStart="5dp"
+        android:layout_weight="1"
+        android:id="@+id/complet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:gravity="center"
+
+        android:layout_gravity="center_vertical"
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/y"
+        android:orientation="vertical">
+        <Button
+            android:gravity="center"
+            android:padding="1dp"
+             android:text="View"
+            android:layout_margin="10dp"
+            android:textColor="#4B880F"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            style="@style/MyButtonStyleSmall"
+            android:id="@+id/view_bt"/>
+    </LinearLayout>
+</LinearLayout>

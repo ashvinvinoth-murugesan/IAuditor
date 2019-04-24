@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ladder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="5dp"
+        android:text="1.Ladder should not have worn out / damaged  / missing rubber bases, rungs, spreaders, vertical rails "
+        android:textSize="12dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:text="2. For entry into roof void => A-ladder should not be used. Only leaning/ extension ladder that can extend 1meter through the roof void opening shall be used."
+        android:textSize="12dp"
+        android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+</LinearLayout>

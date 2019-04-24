@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rentokil.pci.rauditor.AIB_Title_1">
+
+
+    <include layout="@layout/toolbar_category"/>
+    <ScrollView
+
+        android:layout_weight="1"
+        android:id="@+id/scrlbar"
+        android:background="#f5f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginBottom="690dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#E50404"
+                android:elevation="3dp"
+                android:layout_marginLeft="-10dp"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingLeft="90dp"
+                android:paddingRight="90dp"
+                android:paddingTop="12dp"
+                android:text="External Observation 2"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Loading / Unloading bay is free of raw material / finished product / spillage"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_headrd9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="200dp">
+
+
+                <TextView
+
+                    android:id="@+id/aib_ex2_s9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="SELECT RESPONSE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Observed / Possibility"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/aib_ex2_disp9"
+
+                    android:layout_width="match_parent"
+                    android:textColor="#E50404"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="340dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Rentokil PCI"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rpci9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="450dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Customer"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rcus9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="560dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Priority"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_prio9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="HIGH" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="MEDIUM" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="LOW" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="750dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Observation Status"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_obser9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="NEW" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="REPEAT" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT CLOSED" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT PARTIALLY CLOSED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="960dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Assigned to"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_ass9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="RENTOKIL PCI" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="CUSTOMER" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="1120dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rodent stations are fixed at specified interval , labeled, locked &amp; are in good condition"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_headrd10"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="1270dp">
+
+
+                <TextView
+                    android:id="@+id/aib_ex2_s10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="SELECT RESPONSE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/aib_ex2_disp10"
+
+                    android:layout_width="match_parent"
+                    android:textColor="#E50404"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Observed / Possibility"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="1410dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Rentokil PCI"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rpci10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="1520dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Customer"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rcus10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="1630dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Priority"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_prio10"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="HIGH" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="MEDIUM" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="LOW" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1820dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Observation Status"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_obser10"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="NEW" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="REPEAT" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT CLOSED" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT PARTIALLY CLOSED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2030dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Assigned to"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_ex2_ass10"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="RENTOKIL PCI" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="CUSTOMER" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="2190dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Tree branches touching the plant structure"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+
+                    android:id="@+id/aib_ex2_headrd11"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2330dp">
+
+
+                <TextView
+                    android:id="@+id/aib_ex2_s11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="SELECT RESPONSE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Observed / Possibility"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aib_ex2_disp11"
+
+                    android:layout_width="match_parent"
+                    android:textColor="#E50404"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2465dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Rentokil PCI"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rpci11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2570dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Customer"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rcus11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2680dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Priority"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_prio11"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="HIGH" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="MEDIUM" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="LOW" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2870dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Observation Status"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_obser11"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="NEW" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="REPEAT" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT CLOSED" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT PARTIALLY CLOSED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3080dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Assigned to"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_ass11"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="RENTOKIL PCI" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="CUSTOMER" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="3240dp"
+                android:layout_gravity="center">
+
+
+                <TextView
+
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Scrap machinery / equipment's are placed along the wall"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_headrd12"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NO" />
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="3390dp">
+
+
+                <TextView
+                    android:id="@+id/aib_ex2_s12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0404B4"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:paddingTop="12dp"
+                    android:text="SELECT RESPONSE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Observed / Possibility"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aib_ex2_disp12"
+                    android:layout_width="match_parent"
+                    android:textColor="#E50404"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3530dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Rentokil PCI"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rpci12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="3640dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Recommendations - Customer"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round_border">
+
+
+                    <EditText
+                        android:id="@+id/aib_ex2_rcus12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000"
+                        android:hint="Tap here to edit"
+                        android:padding="15dp"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="3750dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Priority"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_prio12"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="HIGH" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="MEDIUM" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="LOW" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3940dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Observation Status"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_obser12"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="NEW" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="REPEAT" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT CLOSED" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="PREVIOUS AUDIT POINT PARTIALLY CLOSED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4150dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Assigned to"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/aib_ex2_ass12"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="RENTOKIL PCI" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="CUSTOMER" />
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="NA" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scrlbar"
+
+        >
+
+        <Button
+            android:id="@+id/aibtitlebck"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Back" />
+        <Button
+            android:id="@+id/aibtitlesub"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="1dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/aib_extrnobs2_finish1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FDFEFE"
+            android:background="#27AE60"
+            android:text="NEXT" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

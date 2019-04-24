@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <HorizontalScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                        android:weightSum="1"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:padding="1dp"
+                    android:background="#FF0000"
+                    android:orientation="horizontal">
+
+                    <customfonts.MyTextView_Lato_Regular
+                        android:layout_margin="1dp"
+                        android:background="@color/textcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:padding="1dp"
+                        android:text="Audit"
+                        android:textColor="#7D1B7E"
+                        android:gravity="center"/>
+
+
+                    <customfonts.MyTextView_Lato_Regular
+                        android:layout_margin="1dp"
+                        android:background="@color/textcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textColor="#7D1B7E"
+                        android:padding="2dp"
+                        android:text="Customer Name"
+                        android:gravity="center"
+                        />
+
+                    <customfonts.MyTextView_Lato_Regular
+                        android:layout_margin="1dp"
+                        android:background="@color/textcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textColor="#7D1B7E"
+                        android:padding="2dp"
+                        android:text="Date of Audit"
+                        android:gravity="center"
+                        />
+
+                    <customfonts.MyTextView_Lato_Regular
+                        android:layout_margin="1dp"
+                        android:background="@color/textcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="#7D1B7E"
+                        android:padding="2dp"
+                        android:visibility="gone"
+                        android:text="Doc No"
+                        android:gravity="center"
+                        />
+
+                    <customfonts.MyTextView_Lato_Regular
+                        android:layout_margin="1dp"
+                        android:background="@color/textcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="#7D1B7E"
+                        android:padding="2dp"
+                        android:text="Status"
+                        android:gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listview_main"
+                    android:layout_width="421dp"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

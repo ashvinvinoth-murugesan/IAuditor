@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/mysignature"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@null"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="end"
+            android:padding="6dp"
+            android:textSize="16dp"
+
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:text="clear" />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:text="Save" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+
+            android:text="cancel"/>
+    </LinearLayout>
+</LinearLayout>

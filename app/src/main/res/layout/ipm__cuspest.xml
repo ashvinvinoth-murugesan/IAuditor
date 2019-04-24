@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rentokil.pci.rauditor.IPM_Cus_Pest_3">
+
+
+    <include layout="@layout/toolbar_category"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/title_background"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:paddingTop="12dp"
+        android:text="Customer Pest Manage (IPM)"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <ScrollView
+
+        android:layout_weight="1"
+        android:id="@+id/scrlbar"
+        android:background="#f5f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="OCC- Order cum Contract Form"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PO-Customer Purchase Order / Service Agreement"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Rentokil PCI serving branch Licence copy Form- VIII"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup3"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup4"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="List of Approved Preparations (APL) with Dilution ratio"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup5"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Antidote List"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Advance Service Schedule"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup6"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="MSDS of Approved preparations being used"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup7"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Label copies of Approved Preparations"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup8"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pest Sighting Log"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup9"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Technician Training Certificate"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup10"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Technician ID"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup11"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Health Records"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup12"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Public Liability Insurance"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup13"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PMS Log Sheets"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup14"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup15"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Preparation Usage Log(Pesticide Usage Log)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Map : Sensitive and Non Sensitive Areas (Applicable to Food, Pharma &amp; Healthcare)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup16"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan- Cockroach Traps(IMT / Exoroach)"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup17"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT APPLICABLE" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Rodent Station"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup18"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - Insect Light Trap"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup19"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="1dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT APPLICABLE" />
+
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Floor Plan - SIP Pheromone Traps"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup20"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT APPLICABLE" />
+
+                </RadioGroup>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Trend Analysis"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup21"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Audit Reports"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RadioGroup
+                    android:id="@+id/ipm_cupest_radiogroup22"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:layout_marginTop="20dp" >
+
+                    <RadioButton
+                        android:gravity="center_vertical"
+                        android:theme="@style/SampleTheme_green"
+                        android:textColor="@color/text_color"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+
+                        android:text="YES,UPDATED" />
+
+                    <RadioButton
+
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:text="YES,BUT NOT UPDATED" />
+
+                    <RadioButton
+                        android:textColor="@color/text_color"
+                        android:theme="@style/SampleTheme_green"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT AVAILABLE" />
+
+
+
+                </RadioGroup>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scrlbar"
+
+        >
+
+        <Button
+            android:id="@+id/ipmcuspestbck"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Back" />
+        <Button
+            android:id="@+id/ipmcuspestsub"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="1dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/ipm_cuspest_finish_1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"            android:layout_height="wrap_content"
+            android:textColor="#FDFEFE"
+            android:background="#27AE60"
+            android:text="NEXT" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

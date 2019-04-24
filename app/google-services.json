@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "191571047739",
+    "firebase_url": "https://fir-oreo-b7ef1.firebaseio.com",
+    "project_id": "fir-oreo-b7ef1",
+    "storage_bucket": "fir-oreo-b7ef1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191571047739:android:d5d95afd0e270e62",
+        "android_client_info": {
+          "package_name": "com.rentokil.pci.rauditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191571047739-kkv9o8f61iofvocki7h62llsrih79t04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rentokil.pci.rauditor",
+            "certificate_hash": "622310e39c4219dfef01c6bc3c7d1901093b2160"
+          }
+        },
+        {
+          "client_id": "191571047739-efqlo7jgde067id05rbja7aj7eftkjir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM8iXR3iKmdoWoiEN1lOxFfq2Er7OplN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191571047739-efqlo7jgde067id05rbja7aj7eftkjir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

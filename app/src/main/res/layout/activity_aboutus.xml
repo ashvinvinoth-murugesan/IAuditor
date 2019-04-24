@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+            android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:src="@drawable/pcinew" />
+
+
+            <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+                android:textStyle="bold"
+            android:layout_marginTop="-150dp"
+            android:layout_weight="0.8"
+            android:gravity="left"
+            android:text="Version Details :"
+            android:textColor="@color/text"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="205dp"
+
+            android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:text="Version No:"
+            android:textColor="#303F9F"
+            android:textSize="16dp" />
+
+
+
+            <TextView
+              android:id="@+id/version_update"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="295dp"
+
+            android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:gravity="left"
+                android:textStyle="bold"
+            android:text="Test"
+            android:textColor="#303F9F"
+            android:textSize="16dp" />
+
+            <ImageView
+
+                android:layout_width="35dp"
+                android:layout_marginTop="120dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/updatelogo"
+                android:layout_gravity="left"
+                />
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+                android:layout_marginLeft="10dp"
+            android:text="About Rentokil"
+            android:textColor="@color/text"
+            android:textSize="17dp"
+            android:textStyle="bold"
+
+            />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp"
+            android:text="The company s divisions operate under three global brands: Rentokil, Initial and Ambius.Additionally, the company continues to operate local brands under the names of acquired businesses which have a familiar brand name in their markets,
+such as Western Exterminator"
+            android:textColor="@color/text"
+
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="120dp"
+            android:text="Check For Updates"
+            android:textColor="#e92324"
+            android:textSize="17dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="130dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/pcinew" />-->
+
+
+        <!--<customfonts.MyTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:layout_marginTop="100dp"-->
+            <!--android:layout_weight="0.8"-->
+            <!--android:gravity="left"-->
+            <!--android:text="Version Details.:"-->
+            <!--android:textColor="@color/text"-->
+            <!--android:textSize="16dp" />-->
+
+        <!--<customfonts.MyTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="100dp"-->
+            <!--android:layout_marginTop="100dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="right"-->
+            <!--android:text="0.2 Test"-->
+            <!--android:textColor="@color/textred"-->
+            <!--android:textSize="21dp" />-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="210dp"-->
+            <!--android:text="About Rentokil pci"-->
+            <!--android:textColor="@color/text"-->
+            <!--android:textSize="17dp"-->
+            <!--android:textStyle="bold"-->
+
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="250dp"-->
+            <!--android:text="Rentokil PCI is the leading pest control service provider in India.Rentokil PCI aims to set new standards for customer service with operations across 250 locations in India."-->
+            <!--android:textColor="@color/text"-->
+
+            <!--android:textSize="17dp" />-->
+
+
+    <!--</RelativeLayout>-->
+
+
+</ScrollView>

@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:windowSoftInputMode="stateHidden"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain">
+
+    <com.rentokil.pci.rauditor.MSOT.SliderLayout
+        android:id="@+id/slider"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="#fff"
+        custom:pager_animation_span="1100">
+
+        <requestFocus />
+    </com.rentokil.pci.rauditor.MSOT.SliderLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/uperslider">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ELECTRICAL SAFETY"
+                android:textColor="#fff"
+                android:textSize="21dp" />
+
+            <customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="SECTION - H"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/text" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_white"
+
+                android:layout_gravity="left"
+                android:id="@+id/img_tool12"
+                android:padding="16dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="rAuditor"
+                android:textColor="#FFFF"
+                android:textSize="@dimen/text" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:src="@drawable/draft_color_icon"
+                android:layout_marginLeft="300dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="-20dp"
+                android:id="@+id/draft"/>
+
+
+
+
+            <!--********SLIDER**********-->
+
+
+            <LinearLayout
+                android:id="@+id/haircut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="261dp"
+                android:background="@drawable/bg_list_rect"
+                android:elevation="4dp"
+                android:orientation="vertical">
+
+                <!--*****HAIR CUT********-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundedrect"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+
+                    >
+
+                    <customfonts.MyTextViewMSOT
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Management Safety Observation Tour (MSOT) "
+                        android:textColor="@color/textsub"
+                        android:textSize="@dimen/text" />
+
+
+                    <customfonts.MyTextViewMSOT
+
+                        android:id="@+id/sub_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEXT"
+                        android:textSize="@dimen/text"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@drawable/rect"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:layout_marginLeft="16dp"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layout1"
+                        android:orientation="vertical"
+                        >
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1.If there is work at the ceiling/ roof void, has technician check if there are electrical fittings/ cables at the ceiling space/ roof void?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd1"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt1"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/cmt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.If there are electrical cables/ fittings at the ceiling/ roof void, has staff discuss with customer to turn off the power to these electricals before start work?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd2"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="-110dp"
+                                android:checked="false"
+                                android:gravity="center_vertical"
+                                android:text="@string/Activity_rd_yes"
+                                android:textColor="@color/text_color"
+                                android:theme="@style/SampleTheme_green" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt2"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q2"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.If not practicable to shut down power to the electricals at the ceiling/ roof void, other safe alternatives have been adopted?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd3"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+                        <TextView
+                            android:id="@+id/addcmt3"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/img_toast1"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="-25dp"
+                            android:background="@drawable/infonewicon" />
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q3"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="147dp"
+                            android:layout_marginTop="-24dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+
+                        <TextView
+                            android:id="@+id/cmt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/text"
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+                            android:id="@+id/title4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4.Electrical insulation gloves used by staff are in good condition?"
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd4"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt4"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q4"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layout2"
+                        android:orientation="vertical"
+                        >
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5.Insect light traps are unplugged from the power point prior to servicing? (as per Pink Note 9)."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd5"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+                        <TextView
+                            android:id="@+id/addcmt5"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/img_toast2"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="-25dp"
+                            android:background="@drawable/infonewicon" />
+
+
+
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q5"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="147dp"
+                            android:layout_marginTop="-24dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/text"
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            />
+
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layout3"
+                        android:orientation="vertical"
+                        >
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="6.High voltage electrical cabinet or room is clearly labelled (e.g. Danger - High Voltage), and securely enclosed."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd6"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt6"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q6"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q6"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="7.Staff does not access and open any operating high voltage electrical panel."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+
+                        <RadioGroup
+                            android:id="@+id/rd7"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt7"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/cmt7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="8.A minimum safe distance of 3m is maintained between staff’s body/ the conductive tool he is holding (e.g. hand phone) and any suspected or exposed live high voltage electrical part."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd8"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+                        <TextView
+                            android:id="@+id/addcmt8"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/img_toast3"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="-25dp"
+                            android:background="@drawable/infonewicon" />
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q8"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="147dp"
+                            android:layout_marginTop="-24dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q8"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+
+                        <TextView
+                            android:id="@+id/cmt8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/text"
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="9.A minimum safe distance - Arms Length is maintained between staff’s body/ the conductive tool he is holding and any suspected or exposed live low voltage electrical part."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd9"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+                        <TextView
+                            android:id="@+id/addcmt9"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+                        <TextView
+                            android:id="@+id/img_toast4"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="-25dp"
+                            android:background="@drawable/infonewicon" />
+
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q9"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="147dp"
+                            android:layout_marginTop="-24dp"
+                            android:background="@drawable/cameraicon1" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q9"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+                        <TextView
+                            android:id="@+id/cmt9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/text"
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            />
+
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layout4"
+                        android:orientation="vertical"
+                        >
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        >
+                        <customfonts.MyTextViewMSOT
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10.If electrical work is involved e.g. connecting, laying cables, it is done by qualified, licensed electrician. Take picture of the license if available."
+                            android:textSize="@dimen/text"
+                            android:textColor="@color/text"
+                            />
+                        <RadioGroup
+                            android:id="@+id/rd10"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:checked="false"
+                            android:layout_marginTop="12dp" >
+
+                            <RadioButton
+
+                                android:gravity="center_vertical"
+                                android:theme="@style/SampleTheme_green"
+                                android:textColor="@color/text_color"
+                                android:layout_width="70dp"
+                                android:layout_marginLeft="-110dp"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/Activity_rd_yes" />
+
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_marginTop="-32dp"
+                                android:layout_width="90dp"
+                                android:layout_marginLeft="-36dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_par" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="40dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_no" />
+
+                            <RadioButton
+
+                                android:theme="@style/SampleTheme_green"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-32dp"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/text_color"
+                                android:text="@string/Activity_rd_na" />
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/addcmt10"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/plusymbol"/>
+
+
+
+                        <TextView
+                            android:id="@+id/image_Q10"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="83dp"
+                            android:layout_marginTop="-27dp"
+                            android:background="@drawable/cameraicon1" />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_layout_Q10"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginTop="-35dp"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="5dp" />
+
+
+
+                        <TextView
+                            android:id="@+id/cmt10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="italic"
+                            android:textColor="@color/text_cmt"
+                            android:textSize="@dimen/text"
+
+                            />
+
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical"
+                        android:padding="16dp"
+
+                        >
+
+                        <customfonts.MyTextViewMSOT
+
+                            android:id="@+id/sub_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:background="@drawable/rect"
+                            android:paddingLeft="19dp"
+                            android:paddingTop="6dp"
+                            android:paddingRight="19dp"
+                            android:paddingBottom="6dp"
+                            android:text="@string/Activity_1_submit"
+                            android:textColor="#fff"
+                            android:textSize="@dimen/text"
+
+
+                            />
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <com.rentokil.pci.rauditor.MSOT.ExpandableHeightListView
+                    android:id="@+id/haircut_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+
+                </com.rentokil.pci.rauditor.MSOT.ExpandableHeightListView>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

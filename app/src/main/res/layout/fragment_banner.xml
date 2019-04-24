@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:paddingRight="22.3dp"-->
+        <!--android:src="@drawable/coffee"/>-->
+
+    <!--<com.github.siyamed.shapeimageview.RoundedImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/coffee_small"-->
+        <!--android:layout_marginRight="22.3dp"-->
+        <!--app:siRadius="6dp"-->
+        <!--app:siBorderWidth="1dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--app:siSquare="true"/>-->
+
+    <ExataClass.Corner_Image
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/white_img"
+        android:layout_marginRight="22.3dp"
+        android:scaleType="fitXY" />
+
+
+
+</LinearLayout>
